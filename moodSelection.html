@@ -1,0 +1,28 @@
+
+<?php
+    $mood = $_POST['moodSelection'];
+    require_once('dbConnection.php');
+?>
+
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <p>Please select your current mood</p>
+        <form action="/" method="POST">
+            
+            <label for="moodSelection">
+                <input type="radio">Bored <br>
+                <input type="radio">Calm <br>
+                <input type="radio">Excited <br>
+                <input type="radio">Tense <br>
+            </label>
+            <input type="submit" value = "Submit mood">
+        </form>
+        
+    
+    
+    </body>
+</html>
