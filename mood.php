@@ -1,6 +1,6 @@
 <?php
 $mood = $_POST['mood'];
-echo $mood;
+//echo $mood;
 
-require_once('dbConnection.php');
+require_once('gettingSongs.php')
 ?>

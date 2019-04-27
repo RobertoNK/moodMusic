@@ -18,8 +18,8 @@
   <h2>MoodMusic</h2>
   <div class="topnav">
         <a class="active" href="home.php">Home</a>
-        <a href="#">Sign in</a>
-        <a href="#">Resgister</a>
+        <a href="signIn.php">Sign in</a>
+        <a href="register.php">Resgister</a>
         <a href="selection.php" target="_blank">Select mood</a>
         <a href="questions.php" target="_blank">Go to questions</a>
         <a href="about.php">About</a>

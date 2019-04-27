@@ -50,7 +50,7 @@ for ($i = 0; $i < sizeof ($moodList); $i++){
 }
 
 $mood = $moodList[$index];
-echo $mood;
+
 
 
 
@@ -58,5 +58,7 @@ echo $mood;
 //////////////////////////// DATABASE CONNECTION /////////////////////////////////////
 
 require_once('dbConnection.php');
+require_once('gettingSongs.php');
+require_once("arrayOfSongs.php");
 
 ?>

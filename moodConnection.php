@@ -1,4 +1,4 @@
 <?php
 include_once('action.php');
-echo $mood;
+//echo $mood;
 ?>
